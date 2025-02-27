@@ -1,0 +1,99 @@
+body{
+    direction:ltr;
+}  
+  
+   #menu{
+ list-style-type:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width:86%;
+    height: 80px;
+    right: 40px;
+    background-color: #34495e;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    font-size:10px;
+    margin-left: 40px;
+    margin-right:40px;
+    padding-left:200px;
+   } 
+
+   #menu li{
+   width:200px;
+   height: 50px;
+    background-color: rgb(200, 148, 221);
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    margin: 10px;
+   float:left ;
+   text-align: center;
+   padding-top: 13px;
+   
+ }
+   .subwomen li{
+    list-style-type:none;
+ 
+
+   }
+   #menu .submen{
+    list-style-type:none;
+
+   }
+   #menu .subchild{
+    list-style-type:none;
+
+   }
+    #menu li a{
+   text-decoration:none;     
+    height: 100%;
+    font-size:27px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+   color: rgb(65, 88, 112);
+    }
+#menu li a:hover{
+   
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: rgb(147, 7, 147);
+    font-weight:bolder;
+    text-decoration: underline;
+}
+#menu .subwomen li{
+    float: none;
+    margin-top: 3px;
+ }
+ #menu .submen li{
+    float: none;
+    margin-top: 3px;
+ }
+ #menu .subchild li{
+    float: none;
+    margin-top: 3px;
+ }
+.subwomen{
+    display: none;
+    
+
+}
+.submen{
+    display: none;
+}
+.subchild{
+    display: none;
+}
+ #menu li:hover .subwomen{
+    display:block;
+    }
+#menu li:hover .submen{
+        display:block
+    
+    }
+ #menu li:hover .subchild{
+            display:block;
+  }
+#sale{
+    position: relative;
+    top: 100px;
+}
